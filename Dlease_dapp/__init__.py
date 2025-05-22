@@ -17,13 +17,4 @@ def create_app():
    from Dlease_dapp.routes.complete_upload import complete_upload
    from Dlease_dapp.routes.details import details
    
-   app.register_blueprint(homepage)
-   app.register_blueprint(login)
-   app.register_blueprint(register)
-   app.register_blueprint(post_object)
-   app.register_blueprint(my_rentals)
-   app.register_blueprint(About_Us)
-   app.register_blueprint(complete_upload)
-   app.register_blueprint(details)
-   app.register_blueprint(test)
    return app
